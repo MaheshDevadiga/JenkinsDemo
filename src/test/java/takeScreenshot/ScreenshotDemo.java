@@ -12,6 +12,8 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 @Listeners(ListenersClass.class)
@@ -31,6 +33,8 @@ public class ScreenshotDemo extends BaseClass{
 		log.debug("Clicked on login button");
 		Assert.assertEquals(true, true);
 		log.debug("asserted the condition");
+		WebDriverWait wait=new WebDriverWait(driver, 40);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@class='content users']//img[@class='sizer']")));
 		driver.findElement(By.xpath("//a[@class='content users']//img[@class='sizer']")).click();
 	}
 

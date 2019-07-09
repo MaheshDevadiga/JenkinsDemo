@@ -1,9 +1,9 @@
-11:58:08,028 DEBUG devpinoyLogger<strong>{1}</strong>:39 - Initiating Chrome Browser
-11:58:08,402 DEBUG devpinoyLogger<strong>{1}</strong>:41 - Deleting all the cookies
-11:58:08,614 DEBUG devpinoyLogger<strong>{1}</strong>:43 - Maximizing the windows
-11:58:12,746 DEBUG devpinoyLogger<strong>{1}</strong>:47 - Launching the website
-11:58:13,027 DEBUG devpinoyLogger<strong>{1}</strong>:27 - Entered username
-11:58:13,123 DEBUG devpinoyLogger<strong>{1}</strong>:29 - Entered password
-11:58:13,197 DEBUG devpinoyLogger<strong>{1}</strong>:31 - Clicked on login button
-11:58:13,205 DEBUG devpinoyLogger<strong>{1}</strong>:33 - asserted the condition
-11:58:14,405 DEBUG devpinoyLogger<strong>{1}</strong>:46 - Quit the driver
+16:59:01,493 DEBUG devpinoyLogger<strong>{1}</strong>:39 - Initiating Chrome Browser
+16:59:01,533 DEBUG devpinoyLogger<strong>{1}</strong>:41 - Deleting all the cookies
+16:59:01,670 DEBUG devpinoyLogger<strong>{1}</strong>:43 - Maximizing the windows
+16:59:03,824 DEBUG devpinoyLogger<strong>{1}</strong>:47 - Launching the website
+16:59:04,315 DEBUG devpinoyLogger<strong>{1}</strong>:27 - Entered username
+16:59:04,420 DEBUG devpinoyLogger<strong>{1}</strong>:29 - Entered password
+16:59:04,508 DEBUG devpinoyLogger<strong>{1}</strong>:31 - Clicked on login button
+16:59:04,512 DEBUG devpinoyLogger<strong>{1}</strong>:33 - asserted the condition
+16:59:06,029 DEBUG devpinoyLogger<strong>{1}</strong>:47 - Quit the driver
