@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29370" started-at="2019-07-08T12:54:28Z" finished-at="2019-07-08T12:54:57Z">
+    <groups>
+    </groups>
+    <test name="Test_1" duration-ms="29370" started-at="2019-07-08T12:54:28Z" finished-at="2019-07-08T12:54:57Z">
+      <class name="takeScreenshot.ScreenshotDemo">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:takeScreenshot.ScreenshotDemo@63a5e46c]" name="beforeTest" is-config="true" duration-ms="27657" started-at="2019-07-08T12:54:28Z" finished-at="2019-07-08T12:54:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test1()[pri:1, instance:takeScreenshot.ScreenshotDemo@63a5e46c]" name="test1" duration-ms="442" started-at="2019-07-08T12:54:55Z" description="Take screenshot" finished-at="2019-07-08T12:54:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:takeScreenshot.ScreenshotDemo@63a5e46c]" name="afterTest" is-config="true" duration-ms="929" started-at="2019-07-08T12:54:56Z" finished-at="2019-07-08T12:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- takeScreenshot.ScreenshotDemo -->
+    </test> <!-- Test_1 -->
+  </suite> <!-- Suite -->
+</testng-results>
