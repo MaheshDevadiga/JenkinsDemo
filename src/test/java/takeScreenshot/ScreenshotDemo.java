@@ -31,6 +31,7 @@ public class ScreenshotDemo extends BaseClass{
 		log.debug("Clicked on login button");
 		Assert.assertEquals(true, true);
 		log.debug("asserted the condition");
+		driver.findElement(By.xpath("//a[@class='content users']//img[@class='sizer']")).click();
 	}
 
 	@BeforeTest
